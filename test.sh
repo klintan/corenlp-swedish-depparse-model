@@ -1,0 +1,1 @@
+java -classpath ./stanford-corenlp-full/stanford-corenlp-3.8.0.jar edu.stanford.nlp.parser.nndep.DependencyParser -testFile swedish-test.conllu -model swedish.nndep.model.backup.txt.gz

@@ -1,0 +1,1 @@
+java -classpath ./stanford-corenlp-full/stanford-corenlp-3.8.0.jar edu.stanford.nlp.parser.nndep.DependencyParser -trainFile swedish-train.conllu -devFile swedish-dev.conllu -embedFile swedish.word2vec.model.txt -embeddingSize 50 -model swedish.nndep.model.txt.gz -trainingThreads 8
